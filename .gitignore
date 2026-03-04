@@ -1,1 +1,2 @@
-agents-common/AAP-gitignore
+*.sock
+*/tags
