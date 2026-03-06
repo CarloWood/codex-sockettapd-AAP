@@ -1,0 +1,1 @@
+Have sockettapd initialize planner thread directories with an `ObjectiveTree/` objective/goal tree and a `current_objective` symlink so planning state is available immediately for a new thread.

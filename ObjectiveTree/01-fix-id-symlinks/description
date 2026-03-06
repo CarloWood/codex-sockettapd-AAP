@@ -1,0 +1,1 @@
+Make sockettapd create the `planner/id` and `coder/id` symlinks using a **relative path** that points to the in-workspace `ThreadID/<UUID>` directory, so session-local state is discoverable and portable without relying on host-only absolute paths (fix in `Sockettapd::create_thread_id_dir`, likely via the helper that calls `create_directory_link`).

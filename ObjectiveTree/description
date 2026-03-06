@@ -1,0 +1,1 @@
+Establish reliable per-session planning and cleanup for Codex planner threads by tracking whether a session becomes resumable (via the first agent-executed command) and enabling automatic removal of stale thread state on exit.

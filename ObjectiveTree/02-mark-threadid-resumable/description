@@ -1,0 +1,1 @@
+Ensure sockettapd can detect the first agent-executed command and mark the corresponding `ThreadID/<UUID>` directory as resumable by clearing the initial `stale` marker file.

@@ -1,0 +1,1 @@
+Have sockettapd create an initial `stale` marker file in each newly created `ThreadID/<UUID>` directory so the session starts in a clearly non-resumable state until the first agent-executed command explicitly marks it resumable.

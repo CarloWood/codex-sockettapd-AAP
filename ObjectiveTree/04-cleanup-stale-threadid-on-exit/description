@@ -1,0 +1,1 @@
+Remove thread directories and mode-specific `id` symlinks for sessions that never became resumable, keeping only sessions that actually interacted with OpenAI and can be resumed.
