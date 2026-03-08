@@ -1,0 +1,1 @@
+Provide a Coder-oriented AGENTS.md: causing the Coder to read $PLANROOT/current_objective/description and implement the changes, (only) in $REPOROOT. Avoid duplication with planner instructions by factoring out shared text, so planner/coder AGENTS stay consistent.
